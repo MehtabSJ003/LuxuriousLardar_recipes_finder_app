@@ -2,7 +2,7 @@
  
 A Real World application where you can search for over 1,000,000 recipes and even add any of your recipes.
 
-## Site Link: [Luxurious Larder - Recipe Finder App](luxuriouslarder.netlify.app)
+## Site Link: [Luxurious Larder - Recipe Finder App](https://luxuriouslarder.netlify.app/)
 
 # Tech Stacks
 

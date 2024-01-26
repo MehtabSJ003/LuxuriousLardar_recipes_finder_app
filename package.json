@@ -2,10 +2,10 @@
   "name": "luxuriouslardar_recipes_finder_app",
   "version": "1.0.0",
   "description": "Search for over 1,000,000 recipes.",
-  "default": "index.html",
+  "default": "./index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "webpack build"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Mehtab Singh Jagde",
   "license": "ISC",

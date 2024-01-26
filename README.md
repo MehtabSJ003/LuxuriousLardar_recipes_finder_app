@@ -1,7 +1,15 @@
 ## Luxurious Lardar
+ 
+A Real World application where you can search for over 1,000,000 recipes and even add any of your recipes.
 
-Search for over 1,000,000 recipes.
+## Site Link: [Luxurious Larder - Recipe Finder App](luxuriouslarder.netlify.app)
 
-Currently I am working on this project, below is a small snippet of it. It will be live soon ;)
+# Tech Stacks
 
-![Alt text](/src/img/homePage.png?raw=true "")
+- HTML5
+- CSS3
+- Scss
+- JavaScript (OOP)
+- Recipe API
+- Local Storage API
+- Parcel

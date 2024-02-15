@@ -12,6 +12,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (width <= 980px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   background-image: linear-gradient(to bottom right, #111, #c89116);
   background-repeat: no-repeat;
@@ -34,6 +40,14 @@ body {
   display: grid;
   overflow: hidden;
   box-shadow: 0 2rem 6rem .5rem #0000004d;
+}
+
+@media only screen and (width <= 1250px) {
+  .container {
+    border-radius: 0;
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .header {
@@ -77,6 +91,12 @@ body {
 
 .search__input:focus {
   outline: none;
+}
+
+@media only screen and (width <= 980px) {
+  .search__input {
+    width: auto;
+  }
 }
 
 .search__btn {
@@ -537,6 +557,12 @@ body {
   box-decoration-break: clone;
   background-image: linear-gradient(to bottom right, #111, #c89116);
   padding: 1.3rem 2rem;
+}
+
+@media only screen and (width <= 980px) {
+  .recipe__title {
+    width: 70%;
+  }
 }
 
 .recipe__details {

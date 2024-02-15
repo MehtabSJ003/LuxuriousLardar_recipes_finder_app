@@ -39,6 +39,10 @@
     &:focus {
       outline: none;
     }
+
+    @media only screen and (max-width: $medium) {
+      width: auto;
+    }
   }
   &__btn {
     font-weight: 600;
